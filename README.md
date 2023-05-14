@@ -1,6 +1,7 @@
 # SimPic
 
 SimPic is a web-based application that allows users to store and organize their images in directories. It provides an easy-to-use interface for uploading, moving, and deleting directories and images.
+![praesentation02](https://github.com/flbrgit/SimPic/assets/92446154/c6fdcf69-86d3-4ae0-b716-abd8759006d2)
 
 ## Installation
 
@@ -49,7 +50,6 @@ The performance loading pages with directories is not affected by a larger amoun
 ## Screenshots
 
 ![praesentation01](https://github.com/flbrgit/SimPic/assets/92446154/63c4ce71-ca8a-427e-85f3-bdb760c7380b)
-![praesentation02](https://github.com/flbrgit/SimPic/assets/92446154/c6fdcf69-86d3-4ae0-b716-abd8759006d2)
 ![praesentation03](https://github.com/flbrgit/SimPic/assets/92446154/9c5891d3-0481-43cd-9b3d-8bf697fb41bc)
 
 ## Copyright
