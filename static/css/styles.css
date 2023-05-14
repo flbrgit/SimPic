@@ -1,0 +1,205 @@
+@font-face {
+        font-family: 'AntonZora';
+        font-style: normal;
+        font-weight: 400;
+        src: url('fonts/AntonZora.ttf') format('truetype'), local('AntonZora');
+      }
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: url("images/background.jpg") no-repeat;
+    enable-background: new;
+    background-size: unset;
+    font-family: "AntonZora";
+}
+
+.school_body {
+    background-color: white;
+    background-size: unset;
+    font-family: "AntonZora";
+}
+
+ /* Container holding the image and the text */
+ .container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.image_left {
+    position: relative;
+    text-align: left;
+    color: white;
+    background-size: 500px 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_middle {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-size: 500px 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image_right {
+    position: relative;
+    text-align: right;
+    color: white;
+    background-size: 500px 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+table#table1 {
+    text-align:center; 
+    margin-left: auto; 
+    margin-right:auto; 
+    width:200px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  div.container {
+    width:98%; 
+    margin:1%;
+  }
+  td {text-align:left;
+    color: chocolate;}
+
+table#table2 {
+        text-align:center; 
+        margin-left: auto; 
+        margin-right:auto; 
+        width:200px;
+        position: absolute;
+    color: black;
+      top: 150%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      }
+input#input1 {
+        text-align:center; 
+        margin-left: auto; 
+        margin-right:auto; 
+        width:200px;
+        position: absolute;
+      top: 200%;
+      left: 5%;
+      transform: translate(30%, 30%);
+      }
+      div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+
+
+
+      .img-box{
+        width: 300px; 
+        margin: 10px;
+        transition: all .5s;
+        cursor: pointer;
+    }
+    .img-box img{
+        width: 100%;
+    }
+    .img-box:hover{
+        transform: scale(1.05);
+    }
+    
+    .window{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        pointer-events: none;
+        background: rgba(0, 0, 0, 0.857);
+        transition: all 0.8s;
+    }
+    .window.open{
+        opacity: 1;
+        pointer-events: all;
+    }
+    .window img{
+        width: 50%;
+    }
+    @media(max-width: 1100px){
+        .window .full-img{
+            width: 80%;
+        }
+    }
+    .image-upload > input {
+      visibility:hidden;
+      width:0;
+      height:0;
+      display:0;
+    }

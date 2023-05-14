@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'AntonZora';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/AntonZora.ttf') format('truetype'), local('AntonZora');
+}
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.school_body {
+  background-color: white;
+  background-size: unset;
+  font-family: "AntonZora";
+}
